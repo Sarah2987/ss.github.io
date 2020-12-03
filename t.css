@@ -1,0 +1,41 @@
+body{
+text-align: center;
+}
+h1{
+   color: green;
+  font-family: courier;
+  font-size: 300%;
+text-align: center;
+}
+p{
+  display: block;
+  color:black;
+  font-family:courier;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 50%;
+}
+
+div>button {
+    line-height: 12px;
+    width: 100px;
+	height: 30px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+	top:0;
+    right:0;
+}
+#edu:hover{
+         color:red;
+}
+#edu:hover + #eduli{
+	color: red;
+	
+}
+
